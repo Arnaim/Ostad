@@ -1,8 +1,0 @@
-download git
-git branch //shows branches
-git checkout //shows where the file is in the branch
-git checkout -b branch_name //creating a new branch
-git add . //adding all or file
-git commit -m "worked with async" //commit message
-git push origin branch_name //pushing to named branch
-
