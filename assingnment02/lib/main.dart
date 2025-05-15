@@ -25,12 +25,11 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  // Bengali text constants
   final String seatsLeftText = "সিট বাকি";
   final String daysLeftText = "দিন বাকি";
   DateTime targetDate = DateTime.now().add(const Duration(days: 30));
 
-  // All 8 country courses with images
+  // List created to add the country images and other information
   final List<Map<String, dynamic>> courses = [
     {
       'title': 'Full Stack Web Development with JavaScript (MERN)',
@@ -215,7 +214,7 @@ Widget _buildCourseCard(int index) {
   );
 }
 
-
+//comparing Bengali with English numericals 
   String _convertToBengaliNumerals(String englishNumber) {
     const englishToBengali = {
       '0': '০',
