@@ -165,7 +165,7 @@ Widget _buildCourseCard(int index) {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      Text(daysLeftText, style: const TextStyle(fontSize: 14, color: Colors.black)),
+                      Text(daysLeftText, style: const TextStyle(fontSize: 14, color: Colors.grey)),
                       Text(
                         _convertToBengaliNumerals(daysLeft.toString()),
                         style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
